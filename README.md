@@ -1,2 +1,2 @@
 # Harvester
- Harvester of Soul Clear Version
+ Harvester of Soul Clean Version
