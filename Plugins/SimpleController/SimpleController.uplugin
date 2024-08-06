@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 330,
+	"VersionName": "3.30",
+	"FriendlyName": "Simple Controller",
+	"Description": "SDL2 based Controller Plugin",
+	"Category": "Input Devices",
+	"CreatedBy": "Socke",
+	"CreatedByURL": "",
+	"DocsURL": "https://virtualbird.de/ue4Doku/SimpleController/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/16bc70b2e5dc47018c76a0b00ad969d3",
+	"SupportURL": "mailto:unrealmarketplace@virtualbird.de",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SimpleController",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		}
+	]
+}

@@ -18,6 +18,11 @@
 		{
 			"Name": "EnhancedInput",
 			"Enabled": false
+		},
+		{
+			"Name": "SimpleController",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/16bc70b2e5dc47018c76a0b00ad969d3"
 		}
 	]
 }
