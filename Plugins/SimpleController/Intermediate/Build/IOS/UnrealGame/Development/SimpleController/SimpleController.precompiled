@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/SimpleController/Module.SimpleController.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/SimpleController/Module.SimpleController.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/SimpleController/Module.SimpleController.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/SimpleController/Module.SimpleController.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/SimpleController/Module.SimpleController.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/SimpleController/Module.SimpleController.3.cpp.o"
+	]
+}

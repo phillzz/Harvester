@@ -1,0 +1,130 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SimpleControllerWheel.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAutocenterAsyncEvent;
+enum class ESimpleControllerWheelFFDirection : uint8;
+struct FSimpleControllerDevice;
+#ifdef SIMPLECONTROLLER_SimpleControllerWheel_generated_h
+#error "SimpleControllerWheel.generated.h already included, missing '#pragma once' in SimpleControllerWheel.h"
+#endif
+#define SIMPLECONTROLLER_SimpleControllerWheel_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execwheelAxisEvent); \
+	DECLARE_FUNCTION(execupdateConstantForceOnWheel); \
+	DECLARE_FUNCTION(execupdateAutocenterWheel); \
+	DECLARE_FUNCTION(execstopAutocenter); \
+	DECLARE_FUNCTION(execmoveWheel);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_INCLASS \
+private: \
+	static void StaticRegisterNativesUSimpleControllerWheel(); \
+	friend struct Z_Construct_UClass_USimpleControllerWheel_Statics; \
+public: \
+	DECLARE_CLASS(USimpleControllerWheel, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SimpleController"), NO_API) \
+	DECLARE_SERIALIZER(USimpleControllerWheel)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USimpleControllerWheel(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimpleControllerWheel) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USimpleControllerWheel); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USimpleControllerWheel); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USimpleControllerWheel(USimpleControllerWheel&&); \
+	NO_API USimpleControllerWheel(const USimpleControllerWheel&); \
+public: \
+	NO_API virtual ~USimpleControllerWheel();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_22_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_25_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SIMPLECONTROLLER_API UClass* StaticClass<class USimpleControllerWheel>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_161_DELEGATE \
+static void FAutocenterEvent_DelegateWrapper(const FMulticastScriptDelegate& AutocenterEvent);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execautocenterWheel);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAutocenterAsyncEvent(); \
+	friend struct Z_Construct_UClass_UAutocenterAsyncEvent_Statics; \
+public: \
+	DECLARE_CLASS(UAutocenterAsyncEvent, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SimpleController"), NO_API) \
+	DECLARE_SERIALIZER(UAutocenterAsyncEvent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAutocenterAsyncEvent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAutocenterAsyncEvent(UAutocenterAsyncEvent&&); \
+	NO_API UAutocenterAsyncEvent(const UAutocenterAsyncEvent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAutocenterAsyncEvent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAutocenterAsyncEvent); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAutocenterAsyncEvent) \
+	NO_API virtual ~UAutocenterAsyncEvent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_131_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h_134_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SIMPLECONTROLLER_API UClass* StaticClass<class UAutocenterAsyncEvent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleController_Source_SimpleController_Public_SimpleControllerWheel_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
